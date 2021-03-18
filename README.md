@@ -43,7 +43,7 @@ must get back to the SP. <br>
 The following shows two flags:
 `[[F001, 3, -39.088893, 14.9550392], [F002, 1, -10.341334, -14.654583]]`
 Flag F001 is worth 3 points, and is positioned at (x=-39.088893, y=14.9550392). Flag F002
-is worth 1 point, and is positioned at (x=-10.341334, y=-14.654583).
+is worth 1 point, and is positioned at (x=-10.341334, y=-14.654583).<br>
 This function should return a list of flag IDs that represent the route that you will take. For example,
 your function may return this:
 `[F002, F005, F003, F009]`
