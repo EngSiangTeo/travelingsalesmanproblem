@@ -67,7 +67,8 @@ d(SP to F002) + d(F002 to F005) + d(F005 to F003) + d(F003 to F009) + d(F009 to 
 
 Refer to `p2q1.py`
 
-Time Complexity: `O(k^2n)`
+Time Complexity: `O(k^2n)`<br>
+**n** = number of flags, **k** = number of flags needed to reach target **p**, worst case: **k**=**n** (when all flags are needed to reach target **p**)
 
 ### Explanation 
 My algorithm works by adding 1 most optimal flag from the pool of remaining flags at a time until P score is reach. <br>
