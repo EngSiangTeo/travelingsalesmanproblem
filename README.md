@@ -31,7 +31,7 @@ collect at least p points.
 
 #### Requirement
 You are required to fill up the body of this function in p2q1.py:<br>
-get_route(p, v, flags)<br>
+`get_route(p, v, flags)`<br>
 where:<br>
 • p is the target number of points that a player must collect before ending the game. Players
 who fail to accumulate at least p points lose the game immediately. You can assume that
