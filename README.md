@@ -33,10 +33,10 @@ collect at least p points.
 You are required to fill up the body of this function in p2q1.py:<br>
 `get_route(p, v, flags)`<br>
 where:<br>
-• p is the target number of points that a player must collect before ending the game. Players
-who fail to accumulate at least p points lose the game immediately. You can assume that
-p is >0 and that there are enough flag points in the field to meet p’s requirement.<br>
-• v is the game variation. If v is 1, players do not need to move back to the SP. If v is 2, players
+• **p** is the target number of points that a player must collect before ending the game. Players
+who fail to accumulate at least **p** points lose the game immediately. You can assume that
+**p** is >0 and that there are enough flag points in the field to meet **p**’s requirement.<br>
+• **v** is the game variation. If **v** is 1, players do not need to move back to the SP. If **v** is 2, players
 must get back to the SP. <br>
 • flags is a 2D list that contains the unique ID, points, and x and y coordinates of each flag.<br>
 
